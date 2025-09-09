@@ -26,7 +26,7 @@ return [
 
         'current_password' => [
             'label' => 'Password hman mek',
-            'below_content' => 'Security thil avangin hemi ti chhunzawm tur hian I password chhu rawh.',
+            'below_content' => 'Security thil avangin hemi ti chhunzawm tur hian I password nemnghet rawh.',
             'validation_attribute' => 'current password',
         ],
 
@@ -48,7 +48,7 @@ return [
 
         'email_change_verification_sent' => [
             'title' => 'Email address thlak na thawn ani',
-            'body' => 'Email thlak dilna na chu :email ah hian thawn ani. Khawngaihin hemi email atang hian a inthlak-ho verify rawh.',
+            'body' => 'Email thlak dilna na chu :email ah hian thawn ani. Khawngaihin hemi email atang hian a inthlak-ho fiah rawh.',
         ],
 
         'saved' => [
