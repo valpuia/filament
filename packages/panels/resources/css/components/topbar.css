@@ -38,6 +38,10 @@
     & .fi-topbar-start {
         @apply flex;
     }
+
+    & .fi-sidebar-header {
+        @apply hidden;
+    }
 }
 
 .fi-topbar-collapse-sidebar-btn-ctn {
