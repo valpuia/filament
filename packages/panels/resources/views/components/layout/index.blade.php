@@ -4,6 +4,7 @@
     $livewire ??= null;
 
     $hasTopbar = filament()->hasTopbar();
+    $hasTopbarOnMobile = filament()->hasTopbarOnMobile();
     $isSidebarCollapsibleOnDesktop = filament()->isSidebarCollapsibleOnDesktop();
     $isSidebarFullyCollapsibleOnDesktop = filament()->isSidebarFullyCollapsibleOnDesktop();
     $hasTopNavigation = filament()->hasTopNavigation();
@@ -23,6 +24,7 @@
         'fi-body-has-sidebar-collapsible-on-desktop' => $isSidebarCollapsibleOnDesktop,
         'fi-body-has-sidebar-fully-collapsible-on-desktop' => $isSidebarFullyCollapsibleOnDesktop,
         'fi-body-has-topbar' => $hasTopbar,
+        'fi-body-has-topbar-on-mobile' => $hasTopbarOnMobile,
         'fi-body-has-top-navigation' => $hasTopNavigation,
     ])
 >

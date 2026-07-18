@@ -34,6 +34,12 @@
     }
 }
 
+.fi-body-has-topbar-on-mobile {
+    & .fi-topbar-start {
+        @apply flex;
+    }
+}
+
 .fi-topbar-collapse-sidebar-btn-ctn {
     @apply w-9 shrink-0;
 }
